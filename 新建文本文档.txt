@@ -1,0 +1,8 @@
+
+    登录目标机器 打开 /etc/ssh/sshd_config ，修改PasswordAuthentication no 为：
+
+    PasswordAuthentication yes
+
+    重启服务
+
+    /etc/init.d/sshd restart
